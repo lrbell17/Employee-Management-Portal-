@@ -1,0 +1,5 @@
+# database
+use webportal;
+
+# create table
+create table usercrud(id int primary key auto_increment, name varchar(30),  email varchar(40), password varchar(40), country varchar(30));
